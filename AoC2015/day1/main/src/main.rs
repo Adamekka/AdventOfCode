@@ -8,7 +8,7 @@ fn main() {
     let mut input = String::new();
     file.read_to_string(&mut input)
         .expect("Can't read the file!");
-    
+
     for (index, i) in input.chars().enumerate() {
         if i == '(' {
             floor += 1;
